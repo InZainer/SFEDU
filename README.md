@@ -8,6 +8,6 @@ import Main
 ```
 **Вызов внутри вашей программы:**
 ```python
-Main.decomp(n)
+Main.decomp(r, a)
 ```
 
