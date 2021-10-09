@@ -1,7 +1,5 @@
-def gcd(a, b):
-    while a != b:
-        if a > b:
-            a = a - b
-        else:
-            b = b - a        
-    print(a)
+import math
+r = int(input('Введите радиус окружности: ')
+a = int(input('Введите градус сектора: ')
+S = math.pi * r**2 * (a/360)
+print('Площадь сектора круга =', S)
